@@ -2,7 +2,7 @@
     "id": "approvalform",
     "schemaVersion": "1.1.0",
     "name": "approvalform",
-    "revision": "1.0",
+    "revision": "1.01",
     "type": "task",
     "readOnly": false,
     "content": [
@@ -112,6 +112,26 @@
                     "Notebook",
                     "Cables and Accessories"
                 ]
+            }
+        },
+        {
+            "id": "part",
+            "type": "string",
+            "label": "Part Number",
+            "readOnly": false,
+            "value": "${context.product}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "price",
+            "type": "float",
+            "label": "Price",
+            "readOnly": true,
+            "value": "${context.price}",
+            "constraints": {
+                "required": false
             }
         }
     ],

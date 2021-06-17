@@ -2,7 +2,7 @@
     "id": "onboardingapprovalform",
     "schemaVersion": "1.1.0",
     "name": "onboardingapprovalform",
-    "revision": "1.0",
+    "revision": "1.01",
     "type": "start",
     "readOnly": false,
     "content": [
@@ -62,6 +62,16 @@
             "label": "Approver",
             "readOnly": false,
             "value": "${context.manager}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "part",
+            "type": "string",
+            "label": "Part Number",
+            "readOnly": false,
+            "value": "${context.product}",
             "constraints": {
                 "required": false
             }
