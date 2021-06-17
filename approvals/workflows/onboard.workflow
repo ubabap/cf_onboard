@@ -113,53 +113,53 @@
 		},
 		"df898b52-91e1-4778-baad-2ad9a261d30e": {
 			"classDefinition": "com.sap.bpm.wfs.ui.StartEventSymbol",
-			"x": 100,
-			"y": 100,
+			"x": 12,
+			"y": 26,
 			"width": 32,
 			"height": 32,
 			"object": "11a9b5ee-17c0-4159-9bbf-454dcfdcd5c3"
 		},
 		"53e54950-7757-4161-82c9-afa7e86cff2c": {
 			"classDefinition": "com.sap.bpm.wfs.ui.EndEventSymbol",
-			"x": 455,
-			"y": 100,
+			"x": 394,
+			"y": 24.5,
 			"width": 35,
 			"height": 35,
 			"object": "2798f4e7-bc42-4fad-a248-159095a2f40a"
 		},
 		"6bb141da-d485-4317-93b8-e17711df4c32": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "116,116 210,116",
+			"points": "44,42 94,42",
 			"sourceSymbol": "df898b52-91e1-4778-baad-2ad9a261d30e",
 			"targetSymbol": "e0f878d7-e5d2-429e-9f37-1cd764d69c8e",
 			"object": "c6b99f32-5fe6-4ab6-b60a-80fba1b9ae0f"
 		},
 		"3b7b0153-4477-44d3-a9d6-a34f7443c708": {
 			"classDefinition": "com.sap.bpm.wfs.ui.UserTaskSymbol",
-			"x": 286,
-			"y": 86,
+			"x": 244,
+			"y": 12,
 			"width": 100,
 			"height": 60,
 			"object": "06473cfc-8a0f-4991-ab6c-0be7c79bc76e"
 		},
 		"52c4ab87-9739-463b-b8bc-e069d0753823": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "336,116.75 472.5,116.75",
+			"points": "344,42 394,42",
 			"sourceSymbol": "3b7b0153-4477-44d3-a9d6-a34f7443c708",
 			"targetSymbol": "53e54950-7757-4161-82c9-afa7e86cff2c",
 			"object": "fe6bc32e-926a-4f1a-9026-9c385e00328b"
 		},
 		"e0f878d7-e5d2-429e-9f37-1cd764d69c8e": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ServiceTaskSymbol",
-			"x": 160,
-			"y": 86,
+			"x": 94,
+			"y": 12,
 			"width": 100,
 			"height": 60,
 			"object": "18a55000-10b4-44c5-b64e-46056fcb392f"
 		},
 		"d0778fa6-b4e8-4d56-9201-ccf5a765f18b": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "210,116 336,116",
+			"points": "194,42 244,42",
 			"sourceSymbol": "e0f878d7-e5d2-429e-9f37-1cd764d69c8e",
 			"targetSymbol": "3b7b0153-4477-44d3-a9d6-a34f7443c708",
 			"object": "900608f5-5c51-4c96-9125-c15f09c12f19"
