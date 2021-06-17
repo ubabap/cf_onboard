@@ -1,5 +1,5 @@
 {
-    "id": "onboardingapprovalform",
+    "id": "onboardingStartWF",
     "schemaVersion": "1.1.0",
     "name": "onboardingapprovalform",
     "revision": "1.01",
@@ -72,6 +72,16 @@
             "label": "Part Number",
             "readOnly": false,
             "value": "${context.product}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "price",
+            "type": "float",
+            "label": "Price (demo dummy leave empty)",
+            "readOnly": false,
+            "value": "${context.price}",
             "constraints": {
                 "required": false
             }
