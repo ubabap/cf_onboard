@@ -71,7 +71,7 @@
 		"18a55000-10b4-44c5-b64e-46056fcb392f": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "product",
-			"path": "SEPMRA_I_Product_E(${context.product})/Price",
+			"path": "/SEPMRA_I_Product_E(${context.product})/Price",
 			"httpMethod": "GET",
 			"responseVariable": "${context.price}",
 			"id": "servicetask1",
